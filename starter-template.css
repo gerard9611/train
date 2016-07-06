@@ -1,0 +1,32 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+#login-form
+{
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+#login-form h1
+{
+	width: 100%;
+	text-align: center;
+}
+#login-form #btnlogin
+{
+	width: 100%;
+}
+#regholder
+{
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+#btnregister
+{
+	width: 100%;
+}

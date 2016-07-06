@@ -1,0 +1,13 @@
+# Turn rewrite engine on
+Options +FollowSymlinks
+RewriteEngine on
+
+# Base directory for rewritng
+RewriteBase /train/
+
+# Example
+RewriteRule ^rest/gettrainerprojects/$ rest/gettrainerprojects.php
+RewriteRule ^rest/project/$ rest/ProjectResource.php
+RewriteRule ^rest/project/([0-9]+)/$ rest/ProjectResource.php?project_id=$1
+
+
